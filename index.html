@@ -21,7 +21,7 @@ body{
 a{
       text-decoration: none;
  }
- @media screen and (min-width: 250px){
+ @media screen and (max-width: 2150px) and (min-width: 250px){
 
  #one{
       position: absolute;
@@ -1196,25 +1196,25 @@ section {
       margin-left: -15%;
     }
 .leftPu{
-      width: 98%;
+      width: 150%;
       height: 590px;
       margin-top: 10%;
       margin-left: -15%;
 }
 .leftLa{
-      width: 98%;
+      width: 150%;
       height: 450px;
       margin-top: 10%;
       margin-left: -15%;
 }
 .leftPo{
-      width: 100%;
+      width: 150%;
       height: 370px;
       margin-top: 10%;
       margin-left: -15%;
 }
 .leftHu{
-      width: 100%;
+      width: 150%;
       height: 450px;
       margin-top: 10%;
       margin-left: -15%;
@@ -15029,7 +15029,7 @@ section {
        
        function Vizite() {
        
-               fetch('https://api.countapi.xyz/update/happy-dogs/dogs/?amount=1')
+               fetch('https://api.countapi.xyz/update/happy-dogs/dogs/?amount=-1')
                .then(res => res.json())
                .then(res => {
                        numarat.innerHTML = res.value;
