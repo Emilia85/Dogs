@@ -234,14 +234,14 @@ strong{
  .paw-bottom:hover ul{
       display: block;
  }
- @media screen and (min-width: 320px){
+ /*@media screen and (min-width: 320px){
 .vizitatori {
       width: 90%;
       max-width: 500px;
       margin: 50px auto;
       display: flex; 
       align-items: center;
-      grid-template-columns: 100% ;/*este in legatura cu display: grid;*/
+      grid-template-columns: 100% ;
       justify-content: center;
   
 }
@@ -300,7 +300,72 @@ strong{
       white-space: nowrap;
 }
 }
+*/
+.vizitatori {
+      width: 90%;
+      max-width: 500px;
+      margin: 50px auto;
+      display: block; 
+      align-items: center;
+      justify-content: center;
+}
 
+  #count {
+    width: 70px;
+    margin: auto;
+  }
+.eye {
+      margin: auto;
+      width: 50px;
+      height: 50px;
+      background-color: #bff;
+      border: solid 1px #000;
+      border-radius:  600% 100%;
+      transform: rotate(45deg);
+}
+.eyeC {
+      margin: 10px auto;
+      width: 25px;
+      height: 25px;
+      border: solid 1px #000;
+      background-color: blue;
+      border-radius:  100% 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+.vizitatori {
+      width: 90%;
+      max-width: 500px;
+      margin: 50px auto;
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+}
+
+  #count {
+    width: 40px;
+  }
+.eye {
+      margin-left: 40px;
+      margin-right: 10px;
+      width: 50px;
+      height: 50px;
+      background-color: #bff;
+      border: solid 1px #000;
+      border-radius:  600% 100%;
+      transform: rotate(45deg);
+}
+.eyeC {
+      margin: 10px auto;
+      width: 25px;
+      height: 25px;
+      border: solid 1px #000;
+      background-color: blue;
+      border-radius:  100% 100%;
+}
+  
+}
 #titlu{
       color:rgb(32, 66, 130);
       text-align:center;
@@ -13832,7 +13897,14 @@ section {
        </div>
       </nav>
 
-
+      <div class="vizitatori"> 
+            <div id="count">0</div>
+            <div class="eye">
+              <div class="eyeC"></div>
+            </div>
+            <div id = "thanks">&nbsp; de persoane au vizitat acest site, va multumesc!</div>
+          </div>
+<!--
 
       <div class="vizitatori"> 
             <div class="leftVizite">  
@@ -13843,7 +13915,7 @@ section {
                         <div class="rightVizite">    
                         </div>
       </div>
-
+-->
       <p id="one">&#128062;</p>
       <p id ="two">&#128062;</p>
       <p id ="three">&#128062;</p>
