@@ -8,1723 +8,1663 @@
         
     <style>
       
-        @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap);
-        @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
-body{
-      font-family: 'Montserrat', sans-serif;
-      color:#333;
-      background-color: rgb(225, 252, 199);     
-}
-*{
-      box-sizing:border-box;
- }
-a{
-      text-decoration: none;
- }
- /*one, two sunt cele de jos*/
- #one{
-      position: absolute;
-      margin-top: -80px;
-      margin-left: 20px;
-      font-size: 30px;
-}
+            @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap);
+            @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+      body{
+            font-family: 'Montserrat', sans-serif;
+            color:#333;
+            background-color: rgb(225, 252, 199);     
+      }
+      *{
+            box-sizing:border-box;
+      }
+      a{
+            text-decoration: none;
+      }
+      /*one, two sunt cele de jos*/
+      #one{
+            position: absolute;
+            margin-top: -80px;
+            margin-left: 20px;
+            font-size: 30px;
+      }     
  
-#two{
-      position: absolute;
-      margin-top: -50px;
-      margin-left: 5px;
-      font-size: 30px;
-}
-#three{
-    /*three, four sunt cele de sus*/
-      position: absolute;
-      margin-top: -190px;
-      margin-left: 100px;
-      font-size: 40px;
-}
-#four{
-      position: absolute;
-      margin-top: -160px;
-      margin-left: 70px;
-      font-size: 40px;
-}
-#five{
-    /*five picior jos*/
-      position: absolute;
-      margin-top: -120px;
-      margin-left: 40px;
-      font-size: 40px;
-}
+      #two{
+            position: absolute;
+            margin-top: -50px;
+            margin-left: 5px;
+            font-size: 30px;
+      }
+      #three{
+      /*three, four sunt cele de sus*/
+            position: absolute;
+            margin-top: -190px;
+            margin-left: 100px;
+            font-size: 40px;
+      }
+      #four{
+            position: absolute;
+            margin-top: -160px;
+            margin-left: 70px;
+            font-size: 40px;
+      }
+      #five{
+      /*five picior jos*/
+            position: absolute;
+            margin-top: -120px;
+            margin-left: 40px;
+            font-size: 40px;
+      }
 
-#fivef{
-    /*five picior sus*/
-      position: absolute;
-      margin-top: -230px;
-      margin-left: 125px;
-      font-size: 40px;
-}
-.logo{
-      width:100px;
-}
-.logo img{
-      width:100px;
-}
-nav{
-      width:960 px;
-      margin: 0 auto;
-      display:inline-block;
-      justify-content: space-between;
-}
-.lang-menu{
-      margin-top: 25 px;
-      position: relative;
-      z-index: 1;
- }
-.selected-lang{
-      cursor: pointer;
-      display:inline-block;
-      justify-content: space-between;
-      line-height:2;
-      width: 100px;
- }
-.selected-lang:before{
-      content:'';
-      display:inline-block;
-      width: 45px;
-      height: 45px;
-      text-align:center;
-      background-image: url(https://www.phoca.cz/images/flag-icons.png);
- }
-.lang-menu ul{
-      margin:0;
-      padding:0;
-      background-color:#fff;
-      border:1px solid #f8f8f8;
-      box-shadow:0px 1px 10px rgba(0,0,0,0.2);
-      border-radius: 5px;
-      display: none;
-      position : absolute;
-      top: 40px;
-      left: 20;
- }
-.lang-menu ul li{
-      list-style: none;
-      display: flex;
-      justify-content: space-between;
- }
-.lang-menu ul li a{
-      width: 150px;
-      display:inline-block;
-      padding: 5px 10px;
- }
-.lang-menu ul li a:before{
-      content:'';
-      display: inline-block;
-      width: 32px;
-      height: 32px;
-      margin-right:10px;
-      vertical-align: middle;
- 
- }
-.lang-menu ul li a:hover{
-     background-color:#f2f2f2;
- 
- }
- .de:before{
-     background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/Germany-icon.png);
- }
-.us:before{
-      background-image: url(https://icons.iconarchive.com/icons/icons-land/vista-flags/32/United-States-Flag-1-icon.png);
- }
-.fr:before{
-      background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/France-icon.png);
- }
-.it:before{
-      background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/Italy-icon.png);
- }
-.ro:before{
-      background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/Romania-icon.png);
- }
- .es:before{
-      background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/Spain-icon.png);
- }
- .pt:before{
-      background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/Portugal-icon.png);
- }
-.lang-menu:hover ul{
-      display: block;
- }
- 
-span{
-      /**/
-      color: rgb(12, 216, 121);
-}
-strong{
-      color: rgb(88, 220, 104);
+      #fivef{
+      /*five picior sus*/
+            position: absolute;
+            margin-top: -230px;
+            margin-left: 125px;
+            font-size: 40px;
+      }
+      .logo{
+            width:100px;
+      }
+      .logo img{
+            width:100px;
+      }
+      nav{
+            width:960 px;
+            margin: 0 auto;
+            display:inline-block;
+            justify-content: space-between;
+      }
+      .lang-menu{
+            margin-top: 25 px;
+            position: relative;
+            z-index: 1;
+      }
+      .selected-lang{
+            cursor: pointer;
+            display:inline-block;
+            justify-content: space-between;
+            line-height:2;
+            width: 100px;
+      }
+      .selected-lang:before{
+            content:'';
+            display:inline-block;
+            width: 45px;
+            height: 45px;
+            text-align:center;
+            background-image: url(https://www.phoca.cz/images/flag-icons.png);
+      }
+      .lang-menu ul{
+            margin:0;
+            padding:0;
+            background-color:#fff;
+            border:1px solid #f8f8f8;
+            box-shadow:0px 1px 10px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            display: none;
+            position : absolute;
+            top: 40px;
+            left: 20;
+      }
+      .lang-menu ul li{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+      }
+      .lang-menu ul li a{
+            width: 150px;
+            display:inline-block;
+            padding: 5px 10px;
+      }
+      .lang-menu ul li a:before{
+            content:'';
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            margin-right:10px;
+            vertical-align: middle;
       
-}	
-/*Meniu labuta*/
-
-.paw-bottom {
-      position: absolute;
-      top: 1px;
-      right: 20px;
-      height: 120px;
-      width: 120px;
-      background: rgb(44, 212, 44);
-      border-radius: 50%;
-      display: inline-block;
-      cursor: pointer;
-      display:inline-block;
-      justify-content: space-between;
-      line-height:2;
-      width: 100px;
-}
-#labute{
-  position: absolute;
-  margin-top: -35px;
-  margin-left: -32px;
-}
-
-.paw-bottom :before {
-      content:'';
-      display:inline-block;
-      width: 32px;
-      height: 32px;
-      text-align:center;
- }
-.paw-bottom ul{
-      margin:0;
-      padding:0;
-      background-color:#f8f8f8;
-      border:1px solid #f8f8f8;
-      box-shadow:0px 1px 10px rgba(0,0,0,0.2);
-      border-radius: 5px;
-      display: none;
-      position : absolute;
-      top: 40px;
-      left: 20;
- }
- .paw-bottom ul li{
-      list-style: none;
-      display: flex;
-      justify-content: space-between;
-
- }
-.paw-bottom ul li a{
-      width: 90px;
-      display:inline-block;
-      padding: 10px 0px;
+      }
+      .lang-menu ul li a:hover{
+            background-color:#f2f2f2;
+      
+      }
+      .de:before{
+            background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/Germany-icon.png);
+      }
+      .us:before{
+            background-image: url(https://icons.iconarchive.com/icons/icons-land/vista-flags/32/United-States-Flag-1-icon.png);
+      }
+      .fr:before{
+            background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/France-icon.png);
+      }
+      .it:before{
+            background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/Italy-icon.png);
+      }
+      .ro:before{
+            background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/Romania-icon.png);
+      }
+      .es:before{
+            background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/Spain-icon.png);
+      }
+      .pt:before{
+            background-image: url(https://icons.iconarchive.com/icons/hopstarter/flag-borderless/32/Portugal-icon.png);
+      }
+      .lang-menu:hover ul{
+            display: block;
+      }
  
- }
-.paw-bottom ul li a:before{
-      content:'';
-      display: inline-block;
-      width: 32px;
-      height: 32px;
-      margin-right:10px;
-      vertical-align: middle;
- 
- }
-.paw-bottom ul li a:hover{
-      background-color:#f2f2f2;
- 
- }
+      span{
+            color: rgb(12, 216, 121);
+      }
+      strong{
+            color: rgb(88, 220, 104);
+            
+      }	
+      /*Meniu labuta*/
 
- .paw-bottom:hover ul{
-      display: block;
- }
-/*
-.vizitatori {
-      width: 90%;
-      max-width: 500px;
-      margin: 50px auto;
-      display: flex; 
-      align-items: center;
-      grid-template-columns: 100% ;
-      justify-content: center;
-  
-}
-.leftVizite {
-      width: 50%;
-      height: 200px;
-      border-radius: 8px;
-}
+      .paw-bottom {
+            position: absolute;
+            top: 1px;
+            right: 20px;
+            height: 120px;
+            width: 120px;
+            background: rgb(44, 212, 44);
+            border-radius: 50%;
+            display: inline-block;
+            cursor: pointer;
+            display:inline-block;
+            justify-content: space-between;
+            line-height:2;
+            width: 100px;
+      }
+      #labute{
+            position: absolute;
+            margin-top: -35px;
+            margin-left: -32px;
+      }
 
-.center {
-      width: 40%;
-      height: 200px;
-      border-radius: 8px;
-}
-.eye {
-      margin: auto;
-      margin-left: -195px;
-      margin-top: -15px;
-      width: 45px;
-      height: 45px;
-      border: solid 1px #000;
-      border-radius:  600% 70%;
-      transform: rotate(45deg);
-}
-.eye:before {
-      content: '';
-      display: block;
-      position: absolute;
-      background-color: #000 ;
-      width: 20px;
-      height: 20px;
-      border: solid 4px rgb(10, 211, 238);
-      border-radius: 50%;
-      left: 8px;
-      top: 7px;
-}
+      .paw-bottom :before {
+            content:'';
+            display:inline-block;
+            width: 32px;
+            height: 32px;
+            text-align:center;
+      }
+      .paw-bottom ul{
+            margin:0;
+            padding:0;
+            background-color:#f8f8f8;
+            border:1px solid #f8f8f8;
+            box-shadow:0px 1px 10px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            display: none;
+            position : absolute;
+            top: 40px;
+            left: 20;
+      }
+      .paw-bottom ul li{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
 
-
-#count{
-      margin: auto;
-      margin-top: -50px;
-      margin-left: 180px;
-      width: 50%;
-      height: 70%;
-}
-#thanks{
-      margin: auto;
-      margin-top: 140px;
-      margin-left: 60px;
-      width: 100px;
-      height: 90px;
-}*/
-.vizitatori {
-      width: 90%;
-      min-width: 210px;
-      margin: 50px auto;
-      display: flex;
-      justify-content: center; 
+      }
+      .paw-bottom ul li a{
+            width: 90px;
+            display:inline-block;
+            padding: 10px 0px;
       
-}  
-.eye {
-  width: 45px;
-  height: 45px;
-  border: solid 1px #000;
-  border-radius:  600% 70%;
-  transform: rotate(45deg);
-}
-.eye:before {
-  content: '';
-  display: block;
-  position: absolute;
-  background-color: #000 ;
-  width: 20px;
-  height: 20px;
-  border: solid 4px rgb(10, 211, 238);
-  border-radius: 50%;
-  left: 8px;
-  top: 7px;
-}
-.leftVizite{
-}
-#count{
-  padding-left: 15px;
-}    
-#thanks{
-  padding-left: 5px;
-}
-
-
-#titlu{
-      margin-top: -110px;
-      color:rgb(32, 66, 130);
-      text-align:center;
-      margin-top: 30px;
-}
-#intro{
-      color:rgb(32, 66, 130);
-      margin-left: 10px;
-}
-section {
-      min-height: 100vh;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #0a322f;
-}
-.lucrare {
-      width: 90%;
-      max-width: 1000px;
-      margin: 50px auto;
-      display: flex; 
-      align-items: center;
-      grid-template-columns: 100% ;
-      justify-content: center;
-}
-.leftL {
-      width: 625%;
-      height: 430px;
-      background: url(https://i2.wp.com/winner-plus.ro/articole/wp-content/uploads/2016/05/Labrador-Retriever-5.jpg?fit=708%2C472&ssl=1)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -20%;
+      }
+      .paw-bottom ul li a:before{
+            content:'';
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            margin-right:10px;
+            vertical-align: middle;
       
-}
-.leftG{
-      width: 530%;
-      height: 550px;
-      background: url(https://t1.ea.ltmcdn.com/it/images/7/4/6/toelettatura_del_golden_retriever_647_600_square.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftPu{
-      width: 570%;
-      height: 600px;
-      background: url(https://dogfriendlyscene.co.uk/wp-content/uploads/2020/09/poodle-with-a-show-clip.png)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftLa{
-      width: 590%;
-      height: 470px;
-      background: url(https://www.ebknows.com/wp-content/uploads/2019/06/Chocolate-Labradoodle.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftPo{
-      width: 734%;
-      height: 550px;
-      background: url(https://sabicao.com.br/wp-content/uploads/2017/06/barbet-wpcf_830x550.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftHu{
-      width: 550%;
-      height: 500px;
-      background: url(https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZWRpZ2lhbmltYWx3b3JsZC5y/Y3MtcmRzLnJvJTJGc3RvcmFnZSUyRjIw/MTklMkYwNSUyRjA4JTJGMTA3MTUyMF8x/MDcxNTIwX2NhaW5lLWh1c2t5LXNpYmVy/aWFuLmpwZyZ3PTc4MCZoPTYwMCZ6Yz0x/Jmhhc2g9MGQ1OThmNTFiMTEyZDlhM2RlZWRhZjczNzQ0YzU0Yjc=.thumb.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftMm{
-      width: 720%;
-      height: 520px;
-      background: url(https://www.animalepierdute.ro/wp-content/uploads/2019/09/187274891.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftLu{
-      width: 690%;
-      height: 500px;
-      background: url(https://img.icreb.org/img/imag-2020/2899/chexoslovatskiy-vlchak-volchya-114E.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCg{
-      width: 800%;
-      height: 500px;
-      background: url(https://img.ordinea.ro/uploads/2016/09/caine-lup.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCb{
-      width: 720%;
-      height: 550px;
-      background: url(http://azure.wgp-cdn.co.uk/app-yourdog/posts/Groenendael.jpg?&width=1200&height=630&mode=crop)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftMs{
-      width: 690%;
-      height: 500px;
-      background: url(https://i0.wp.com/wolfsbanek9.com/wp-content/uploads/2018/01/Belgian-Malinois-Vienna-Side.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBi{
-      width: 620%;
-      height: 550px;
-      background: url(https://media.istockphoto.com/photos/beauceron-dog-picture-id648931268?k=6&m=648931268&s=612x612&w=0&h=FhCGJlyEJN96xaBh8pltla1d0m_PVpZszTA4MGUDbVY=)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCc{
-      width: 960%;
-      height: 530px;
-      background: url(https://www.animalepierdute.ro/wp-content/uploads/2019/06/ciobanesc-romanesc-carpatin.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -25%;
-}
-.leftCm{
-      width: 850%;
-      height: 600px;
-      background: url(https://i.pinimg.com/originals/32/91/9d/32919d86bf8255f754fd0782a5998bf4.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCo{
-      width: 760%;
-      height: 600px;
-      background: url(https://www.animalepierdute.ro/wp-content/uploads/2019/06/ciobanesc-romanesc-corb.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBu{
-      width: 1250%;
-      height: 550px;
-      background: url(https://i.pinimg.com/originals/57/14/cb/5714cb8c35a4443a0a5fb194ef6fa3e9.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCp{
-      width: 670%;
-      height: 400px;
-      background: url(https://cutzucutzu.com/wp-content/uploads/2019/08/ciobanesc-de-pirinei-hrana.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBb{
-      width: 620%;
-      height: 580px;
-      background: url(https://cdn6.animalefans.ru/zvrk/poroda-sobak-bobtejl-staroanglijskaja-ovcharka_4_1.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftB{
-      width: 410%;
-      height: 600px;
-      background: url(https://media.istockphoto.com/photos/bernese-mountain-dog-enjoys-nature-picture-id865257876?k=20&m=865257876&s=170667a&w=0&h=B5aECEFz4JFVacBj9t7gHRMszLh2WoMh6TR0_Al1b0A=)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftK{
-      width: 790%;
-      height: 600px;
-      background: url(https://www.animalepierdute.ro/wp-content/uploads/2020/11/Komondor.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCa{
-      width: 975%;
-      height: 500px;
-      background: url(https://i.pinimg.com/originals/ba/3f/ef/ba3fef2891824cfca6eb73c4d2bd5cca.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftA{
-      width: 590%;
-      height: 515px;
-      background: url(https://www.toateanimalele.ro/wp-content/uploads/2016/05/AustralianShepherd.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCl{
-      width: 590%;
-      height: 570px;
-      background: url(https://www.publicdomainpictures.net/pictures/60000/nahled/dog-rough-collie.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBC{
-      width: 520%;
-      height: 550px;
-      background: url(https://www.tuttogreen.it/wp-content/uploads/2019/12/shutterstock_715940125.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBr{
-      width: 590%;
-      height: 490px;
-      background: url(https://www.zooplus.co.uk/magazine/wp-content/uploads/2018/03/fotolia_98226586-768x611.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftV{
-      width: 700%;
-      height: 450px;
-      background: url(https://trufesiciuperci.files.wordpress.com/2017/09/fig-8-vizsla-maghiarc4832.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftW{
-      width: 890%;
-      height: 500px;
-      background: url(https://gundog-journal.com/siteimg/medium/ugc-1/fullnews/news/156/184_original.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBo{
-      width: 500%;
-      height: 470px;
-      background: url(https://bowwowinsurance.com.au/wp-content/uploads/2018/10/boxer-700x700.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftRo{
-      width:580%;
-      height: 450px;
-      background: url(https://www.animaland.ro/wp-content/uploads/2020/01/cele_mai_inteligente_rase_de_caini_526344319-9.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftP{
-      width: 400%;
-      height: 540px;
-      background: url(https://www.parmapress24.it/wp-content/uploads/2017/01/ce575793c02769048815473fa93f6b65.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftAm{
-      width: 540%;
-      height: 500px;
-      background: url(https://i.pinimg.com/originals/c5/a1/9e/c5a19e70f853bda6f825f29c161b2646.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBl{
-      width: 780%;
-      height: 430px;
-      background: url(https://storage.ning.com/topology/rest/1.0/file/get/3292306780?profile=RESIZE_930x&width=800)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftD{
-      width: 650%;
-      height: 400px;
-      background: url(https://www.elityavru.com/irk/resim/21_doberman-2.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftDo{
-      width: 630%;
-      height: 700px;
-      background: url(https://images-on-off.com/images/53/sobakanemetskiydogfotoporodiopisaniexara-77c49ce0.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftDA{
-      width: 600%;
-      height: 480px;
-      background: url(https://scms.machteamsoft.ro/uploads/photos/652x450/652x450_016715-dog-argentinian.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftDl{
-      width: 850%;
-      height: 460px;
-      background: url(https://rasedecaini.ro/wp-content/uploads/2019/05/rasa-Dalmatian.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftS{
-      width: 550%;
-      height: 500px;
-      background: url(https://www.keblog.it/wp-content/uploads/2020/09/foto-divertenti-shiba-inu-rovina-foto-gruppo-04-1.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftAc{
-      width: 720%;
-      height: 440px;
-      background: url(https://www.animalkingdomaz.com/wp-content/uploads/Akita-Custom.jpeg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftAa{
-      width: 720%;
-      height: 500px;
-      background: url(https://www.razzedicani.net/wp-content/uploads/2016/04/american1-e1461847948261.png)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
+      }
+      .paw-bottom ul li a:hover{
+            background-color:#f2f2f2;
       
-}
-.leftSa{
-      width: 450%;
-      height: 420px;
-      background: url(https://i.pinimg.com/originals/89/06/6d/89066d6a564e7b8a68300945a0fc097a.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftT{
-      width: 790%;
-      height: 400px;
-      background: url(https://www.ilmiocaneleggenda.it/wp-content/uploads/2020/04/Terranova.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCh{
-      width: 600%;
-      height: 520px;
-      background: url(https://www.divahair.ro/images/speciale/articole/articole_imagini/alexag_135/2016.04.18/650x488/iStock_000023384913_Medium_477_488.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftSp{
-      width: 900%;
-      height: 400px;
-      background: url(https://serviciodeviajes.com/seo2/img/5d3a22e948f33.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCz{
-      width: 900%;
-      height: 470px;
-      background: url(https://vetstreet.brightspotcdn.com/dims4/default/b61a877/2147483647/crop/645x380%2B0%2B11/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fae%2Fc6%2F2f2acdb3420b9a321173d9d9b01e%2Fchinese-crested-ap-0w15gn.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftSh{
-      width: 900%;
-      height: 450px;
-      background: url(https://www.zooplus.fr/magazine/wp-content/uploads/2018/10/portrait-de-shih-tzu-1024x683.jpeg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftMa{
-      width: 700%;
-      height: 500px;
-      background: url(https://rasedecaini.ro/wp-content/uploads/2019/05/rasa-bichon-maltez-730x438.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBn{
-      width: 490%;
-      height: 600px;
-      background: url(https://www.mydog.pet/wp-content/uploads/2021/01/Bolognese.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftF{
-      width: 850%;
-      height: 500px;
-      background: url(https://www.dogtime.com/assets/uploads/2011/01/file_23136_bichon-frise-460x290.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftWe{
-      width: 530%;
-      height: 550px;
-      background: url(https://www.animalkingdomaz.com/wp-content/uploads/westie-adult-1.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftY{
-      width: 490%;
-      height: 500px;
-      background: url( https://img.corr.it/upload/1422083513111.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftSk{
-      width: 1000%;
-      height: 400px;
-      background: url(https://i.pinimg.com/originals/83/98/64/839864882608e5b105374ac268021ffa.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftMh{
-      width: 790%;
-      height: 500px;
-      background: url(https://todaslasrazasdeperros.org/wp-content/uploads/2020/08/Manchester-Terrier-e1597381891517.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftJ{
-      width: 670%;
-      height: 600px;
-      background: url(http://www.newdog.it/wp-content/uploads/2015/10/jack-russell-agile.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftPa{
-      width: 730%;
-      height: 600px;
-      background: url(https://dogbreeds.wiki/uploads/p/parson-russell-terrier-photo-1_1.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftFo{
-      width: 690%;
-      height: 600px;
-      background: url(https://amicidicasa.it/wp-content/uploads/2020/10/1259851419foxterrierV.GROSSEMY05.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBe{
-      width: 870%;
-      height: 550px;
-      background: url(http://web5.lifelearn.com/wp-content/uploads/2011/01/BedlingtonTerrier1of2.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftI{
-      width: 780%;
-      height: 500px;
-      background: url(https://ssl.cdn.www.miciobao.net/wp-content/uploads/Irish-terrier-3.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftWh{
-      width: 690%;
-      height: 500px;
-      background: url(https://www.dog.it/wp-content/uploads/2018/09/Welsh-Terrier.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftAr{
-      width: 760%;
-      height: 550px;
-      background: url(https://www.animalzoo.ro/wp-content/uploads/2016/10/airedale-terrier.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBk{
-      width: 910%;
-      height: 500px;
-      background: url(https://www.omlet.us/images/cache/929/768/Dog-Black_Russian_Terrier-Two_beautiful_adult_Black_Russian_Terriers_content_in_each_others_company.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftSc{
-      width: 710%;
-      height: 550px;
-      background: url(http://cdn.tipresentoilcane.com/wp-content/uploads/2011/10/06065829/tretaglie.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftO{
-      width: 730%;
-      height: 470px;
-      background: url(https://www.toateanimalele.ro/wp-content/uploads/2016/05/Saluki.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftKi{
-      width: 990%;
-      height: 450px;
-      background: url(https://www.cavaliere-vom-hardenberg.de/wp-content/uploads/2019/03/cavalier_colors.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCr{
-      width: 620%;
-      height: 500px;
-      background: url(https://t1.ea.ltmcdn.com/it/razas/0/5/5/img_550_welsh-corgi-pembroke_0_orig.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftE{
-      width: 750%;
-      height: 550px;
-      background: url(https://i.pinimg.com/736x/66/20/43/662043de11b6e8653c16cde34d9078ca.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftPe{
-      width: 680%;
-      height: 500px;
-      background: url(https://www.purina.co.uk/sites/default/files/2021-02/BREED%20Hero_0095_pomeranian.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCi{
-      width: 690%;
-      height: 550px;
-      background: url(https://www.cani.com/sites/default/files/imagecache/column_width/chihuahua.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftX{
-      width: 1030%;
-      height: 600px;
-      background: url(https://www.animalzoo.ro/wp-content/uploads/2016/03/xolo-600x515.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBh{
-      width: 1000%;
-      height: 520px;
-      background: url(https://www.dogbreedersgallery.co.za/images/listings/2019-08/undefined-1566592964-231-e.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBt{
-      width: 1000%;
-      height: 690px;
-      background: url(https://i.pinimg.com/564x/15/67/97/156797f27044fd530049deec86c8b28b.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCk{
-      width: 730%;
-      height: 550px;
-      background: url(https://478561.smushcdn.com/2139592/wp-content/uploads/2017/06/solid-cockers1.jpg?lossy=1&strip=1&webp=1)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBa{
-      width: 930%;
-      height: 550px;
-      background: url(https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/11123543/Beagles-standing-in-a-frosty-field-on-a-cold-morning.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftPt{
-      width: 640%;
-      height: 400px;
-      background: url(https://i.simpalsmedia.com/999.md/BoardImages/900x900/181bdd3a163fd6eb2ea7e6f89f239f27.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -25%;
-}
-.leftSt{
-      margin-top: 15%;
-      width: 740%;
-      height: 430px;
-      background: url(https://i.pinimg.com/originals/1e/72/95/1e7295086e69c6f0176c119a7d59446c.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBg{
-      width: 820%;
-      height: 450px;
-      background: url(http://www.rfi.ro/sites/default/files/styles/inside_content/public/bulldog.jpg?itok=VwxFifUV)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftPg{
-      width: 990%;
-      height: 590px;
-      background: url(https://www.petplan.co.uk/images/breed-info/pug/common-health-conditions-carousel-m7a7729-cutout.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBf{
-      width: 730%;
-      height: 500px;
-      background: url(https://monitoruldevrancea.ro/wp-content/uploads/2016/8/1%20august/31Bulldog881%20NU.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftBm{
-      width: 810%;
-      height: 550px;
-      background: url(https://petfamily.it/wp-content/uploads/2019/09/pagine_1558366480_foto1-1.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftCs{
-      width: 840%;
-      height: 650px;
-      background: url(https://www.razzedicani.net/wp-content/uploads/2018/02/razza-cane-corso.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftMn{
-      width: 680%;
-      height: 500px;
-      background: url(https://img.chien.com/img/races-de-chiens/183_big-matin-napolitain.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -28%;
-}
-.leftDg{
-      width: 780%;
-      height: 550px;
-      background: url(https://www.thekennelclub.org.uk/media/1777/dogue-de-bordeaux-standing.jpg?mode=pad&width=1000&rnd=132143876810000000)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftSb{
-      width: 600%;
-      height: 580px;
-      background: url(https://i.pinimg.com/originals/29/6b/cd/296bcd122973895c5ab975500ab5256f.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftMt{
-      width: 670%;
-      height: 400px;
-      background: url(https://i.pinimg.com/originals/14/9f/24/149f2492590e4140cab3541bfee293b5.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftTs{
-      width: 800%;
-      height: 420px;
-      background: url(https://www.ilmiocaneleggenda.it/wp-content/uploads/2020/04/Tibetan-Spaniel-e1586182413128.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftTt{
-      width: 590%;
-      height: 450px;
-      background: url(https://img.chien.com/img/races-de-chiens/209_big-tibetan-terrier-tibet.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftTk{
-      width: 690%;
-      height: 500px;
-      background: url(https://www.pedigree.com/images/default-source/breed-images/largeae28078ea3f66930bcd1ff00004ce6f7.jpg?sfvrsn=f4de6e49_0)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.leftR{
-      width: 770%;
-      height: 430px;
-      background: url(https://i.pinimg.com/originals/05/63/d5/0563d500d9deab8181646deb8a65d2f5.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -25%;
-}
-.leftMe{
-      width: 860%;
-      height: 530px;
-      background: url(http://www.ziuaconstanta.ro/images/stories/2020/02/04/ana/caini-comunitari-2.jpg)
-      no-repeat center / cover;
-      border-radius: 8px;
-      margin-left: -18%;
-}
-.right {
-      width: 700%;
-      min-height: 300px;
-      background-color: #0e261c;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 30px;
-      border-radius: 8px;
-      color: white;
-      margin-left: -10px;
-}
+      }
 
-.right p {
-      margin: 20px 0;
-      font-weight: 500;
-      line-height: 25px;
-}
-.right a {
-      text-decoration: none;
-      text-transform: uppercase;
-      background-color: black;
-      color: white;
-      padding: 20px 30px;
-      display: inline-block;
-      letter-spacing: 2px;
-}
+      .paw-bottom:hover ul{
+            display: block;
+      }
+
+      .vizitatori {
+            width: 90%;
+            min-width: 210px;
+            margin: 50px auto;
+            display: flex;
+            justify-content: center; 
+            
+      }  
+      .eye {
+            width: 45px;
+            height: 45px;
+            border: solid 1px #000;
+            border-radius:  600% 70%;
+            transform: rotate(45deg);
+      }
+      .eye:before {
+            content: '';
+            display: block;
+            position: absolute;
+            background-color: #000 ;
+            width: 20px;
+            height: 20px;
+            border: solid 4px rgb(10, 211, 238);
+            border-radius: 50%;
+            left: 8px;
+            top: 7px;
+      }
+      .leftVizite{
+      }
+      #count{
+            padding-left: 15px;
+      }    
+      #thanks{
+            padding-left: 5px;
+      }
 
 
-@media screen and (min-width: 350px) and (max-width: 400px){
-.lucrare {
-      flex-direction: column;
-      width: 100%;
-      margin: 0 20px;
-}
-.leftL {
-      width: 120%;
-      height: 250px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftG {
-      width: 110%;
-      height: 320px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-    }
-.leftPu{
-      width: 105%;
-      height: 360px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftLa{
-      width: 115%;
-      height: 350px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftPo{
-      width: 110%;
-      height: 260px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftHu{
-      width: 110%;
-      height: 370px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftMm{
-      width: 115%;
-      height: 260px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftLu{
-      width: 115%;
-      height: 260px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCg{
-      width: 125%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCb{
-      width: 120%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftMs{
-      width: 110%;
-      height: 280px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBi{
-      width: 115%;
-      height: 250px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCc{
-      width: 130%;
-      height: 210px;
-      margin-top: 10%;
-      margin-left: -8%;
-      margin-right: 15%;
-}
-.leftCm{
-      width: 130%;
-      height: 210px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCo{
-      width: 120%;
-      height: 210px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBu{
-      width: 125%;
-      height: 215px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCp{
-      width: 125%;
-      height: 220px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBb{
-      width: 120%;
-      height: 300px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftB{
-      width: 115%;
-      height: 410px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftK{
-      width: 115%;
-      height: 300px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCa{
-      width: 110%;
-      height: 280px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftA{
-      width: 110%;
-      height: 265px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCl{
-      width: 105%;
-      height: 290px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBC{
-      width: 100%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBr{
-      width: 110%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftV{
-      width: 110%;
-      height: 250px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftW{
-      width: 110%;
-      height: 260px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBo{
-      width: 100%;
-      height: 330px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftRo{
-      width: 110%;
-      height: 350px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftP{
-      width: 110%;
-      height: 310px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftAm{
-      width: 110%;
-      height: 290px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBl{
-      width: 110%;
-      height: 220px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftD{
-      width: 110%;
-      height: 210px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftDo{
-      width: 100%;
-      height: 370px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftDA{
-      width: 115%;
-      height: 300px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftDl{
-      width: 105%;
-      height: 290px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftS{
-      width: 105%;
-      height: 260px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftAc{
-      width: 100%;
-      height: 250px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftAa{
-      width: 105%;
-      height: 280px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftSa{
-      width: 105%;
-      height: 260px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftT{
-      width: 100%;
-      height: 255px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCh{
-      width: 105%;
-      height: 300px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftSp{
-      width: 105%;
-      height: 230px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCz{
-      width: 120%;
-      height: 250px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftSh{
-      width: 105%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftMa{
-      width: 105%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBn{
-      width: 115%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftF{
-      width: 115%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftWe{
-      width: 120%;
-      height: 220px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftY{
-      width: 115%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftSk{
-      width: 120%;
-      height: 220px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftMh{
-      width: 115%;
-      height: 230px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftJ{
-      width: 115%;
-      height: 210px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftPa{
-      width: 115%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftFo{
-      width: 105%;
-      height: 230px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 5%;
-}
-.leftBe{
-      width: 105%;
-      height: 230px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 5%;
-}
-.leftI{
-      width: 115%;
-      height: 250px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftWh{
-      width: 115%;
-      height: 250px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftAr{
-      width: 110%;
-      height: 280px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBk{
-      width: 110%;
-      height: 250px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftSc{
-      width: 105%;
-      height: 280px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftO{
-      width: 100%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftKi{
-      width: 130%;
-      height: 210px;
-      margin-top: 10%;
-      margin-left: -10%;
-      margin-right: 15%;
-}
-.leftCr{
-      width: 110%;
-      height: 280px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftE{
-      width: 116%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftPe{
-      width: 110%;
-      height: 270px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCi{
-      width: 105%;
-      height: 220px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 10%;
-}
-.leftX{
-      width: 125%;
-      height: 290px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBh{
-      width: 100%;
-      height: 290px;
-      margin-top: 10%;
-      margin-left: 10%;
-      margin-right: 15%;
-      
-}
-.leftBt{
-      width: 100%;
-      height: 350px;
-      margin-top: 10%;
-      margin-left: -10%;
-}
-.leftCk{
-      width: 115%;
-      height: 240px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBa{
-      width: 105%;
-      height: 230px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 5%;
-}
-.leftPt{
-      width: 125%;
-      height: 200px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftSt{
-      width: 125%;
-      height: 220px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBg{
-      width: 110%;
-      height: 230px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftPg{
-      width: 100%;
-      height: 260px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBf{
-      width: 105%;
-      height: 260px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftBm{
-      width: 100%;
-      height: 290px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftCs{
-      width: 100%;
-      height: 280px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftMn{
-      width: 110%;
-      height: 260px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftDg{
-      width: 105%;
-      height: 250px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftSb{
-      width: 110%;
-      height: 205px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftMt{
-      width: 115%;
-      height: 210px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftTs{
-      width: 115%;
-      height: 200px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftTt{
-      width: 110%;
-      height: 230px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftTk{
-      width: 105%;
-      height: 260px;
-      margin-top: 10%;
-      margin-left: -5%;
-      margin-right: 15%;
-}
-.leftR{
-      width: 115%;
-      height: 220px;
-      margin-top: 10%;
-      margin-left: -8%;
-      margin-right: 15%;
-}
-.leftMe{
-      width: 105%;
-      height: 220px;
-      margin-top: 10%;
-      margin-left: -20%;
-      margin-right: -15%;
-}
-.right {
-      width: 90%;
-      margin: 0;
-      margin-top: -30px;
-      margin-left: -15%;
-}
+      #titlu{
+            margin-top: -110px;
+            color:rgb(32, 66, 130);
+            text-align:center;
+            margin-top: 30px;
+      }
+      #intro{
+            color:rgb(32, 66, 130);
+            margin-left: 10px;
+      }
+      section {
+            min-height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0a322f;
+      }
+      .lucrare {
+            width: 90%;
+            max-width: 1000px;
+            margin: 50px auto;
+            display: flex; 
+            align-items: center;
+            grid-template-columns: 100% ;
+            justify-content: center;
+      }
+      .leftL {
+            width: 625%;
+            height: 430px;
+            background: url(https://i2.wp.com/winner-plus.ro/articole/wp-content/uploads/2016/05/Labrador-Retriever-5.jpg?fit=708%2C472&ssl=1)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -20%;
+            
+      }
+      .leftG{
+            width: 530%;
+            height: 550px;
+            background: url(https://t1.ea.ltmcdn.com/it/images/7/4/6/toelettatura_del_golden_retriever_647_600_square.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftPu{
+            width: 570%;
+            height: 600px;
+            background: url(https://dogfriendlyscene.co.uk/wp-content/uploads/2020/09/poodle-with-a-show-clip.png)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftLa{
+            width: 590%;
+            height: 470px;
+            background: url(https://www.ebknows.com/wp-content/uploads/2019/06/Chocolate-Labradoodle.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftPo{
+            width: 734%;
+            height: 550px;
+            background: url(https://sabicao.com.br/wp-content/uploads/2017/06/barbet-wpcf_830x550.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftHu{
+            width: 550%;
+            height: 500px;
+            background: url(https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZWRpZ2lhbmltYWx3b3JsZC5y/Y3MtcmRzLnJvJTJGc3RvcmFnZSUyRjIw/MTklMkYwNSUyRjA4JTJGMTA3MTUyMF8x/MDcxNTIwX2NhaW5lLWh1c2t5LXNpYmVy/aWFuLmpwZyZ3PTc4MCZoPTYwMCZ6Yz0x/Jmhhc2g9MGQ1OThmNTFiMTEyZDlhM2RlZWRhZjczNzQ0YzU0Yjc=.thumb.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftMm{
+            width: 720%;
+            height: 520px;
+            background: url(https://www.animalepierdute.ro/wp-content/uploads/2019/09/187274891.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftLu{
+            width: 690%;
+            height: 500px;
+            background: url(https://img.icreb.org/img/imag-2020/2899/chexoslovatskiy-vlchak-volchya-114E.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCg{
+            width: 800%;
+            height: 500px;
+            background: url(https://img.ordinea.ro/uploads/2016/09/caine-lup.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCb{
+            width: 720%;
+            height: 550px;
+            background: url(http://azure.wgp-cdn.co.uk/app-yourdog/posts/Groenendael.jpg?&width=1200&height=630&mode=crop)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftMs{
+            width: 690%;
+            height: 500px;
+            background: url(https://i0.wp.com/wolfsbanek9.com/wp-content/uploads/2018/01/Belgian-Malinois-Vienna-Side.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBi{
+            width: 620%;
+            height: 550px;
+            background: url(https://media.istockphoto.com/photos/beauceron-dog-picture-id648931268?k=6&m=648931268&s=612x612&w=0&h=FhCGJlyEJN96xaBh8pltla1d0m_PVpZszTA4MGUDbVY=)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCc{
+            width: 960%;
+            height: 530px;
+            background: url(https://www.animalepierdute.ro/wp-content/uploads/2019/06/ciobanesc-romanesc-carpatin.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -25%;
+      }
+      .leftCm{
+            width: 850%;
+            height: 600px;
+            background: url(https://i.pinimg.com/originals/32/91/9d/32919d86bf8255f754fd0782a5998bf4.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCo{
+            width: 760%;
+            height: 600px;
+            background: url(https://www.animalepierdute.ro/wp-content/uploads/2019/06/ciobanesc-romanesc-corb.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBu{
+            width: 1250%;
+            height: 550px;
+            background: url(https://i.pinimg.com/originals/57/14/cb/5714cb8c35a4443a0a5fb194ef6fa3e9.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCp{
+            width: 670%;
+            height: 400px;
+            background: url(https://cutzucutzu.com/wp-content/uploads/2019/08/ciobanesc-de-pirinei-hrana.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBb{
+            width: 620%;
+            height: 580px;
+            background: url(https://cdn6.animalefans.ru/zvrk/poroda-sobak-bobtejl-staroanglijskaja-ovcharka_4_1.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftB{
+            width: 410%;
+            height: 600px;
+            background: url(https://media.istockphoto.com/photos/bernese-mountain-dog-enjoys-nature-picture-id865257876?k=20&m=865257876&s=170667a&w=0&h=B5aECEFz4JFVacBj9t7gHRMszLh2WoMh6TR0_Al1b0A=)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftK{
+            width: 790%;
+            height: 600px;
+            background: url(https://www.animalepierdute.ro/wp-content/uploads/2020/11/Komondor.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCa{
+            width: 975%;
+            height: 500px;
+            background: url(https://i.pinimg.com/originals/ba/3f/ef/ba3fef2891824cfca6eb73c4d2bd5cca.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftA{
+            width: 590%;
+            height: 515px;
+            background: url(https://www.toateanimalele.ro/wp-content/uploads/2016/05/AustralianShepherd.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCl{
+            width: 590%;
+            height: 570px;
+            background: url(https://www.publicdomainpictures.net/pictures/60000/nahled/dog-rough-collie.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBC{
+            width: 520%;
+            height: 550px;
+            background: url(https://www.tuttogreen.it/wp-content/uploads/2019/12/shutterstock_715940125.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBr{
+            width: 590%;
+            height: 490px;
+            background: url(https://www.zooplus.co.uk/magazine/wp-content/uploads/2018/03/fotolia_98226586-768x611.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftV{
+            width: 700%;
+            height: 450px;
+            background: url(https://trufesiciuperci.files.wordpress.com/2017/09/fig-8-vizsla-maghiarc4832.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftW{
+            width: 890%;
+            height: 500px;
+            background: url(https://gundog-journal.com/siteimg/medium/ugc-1/fullnews/news/156/184_original.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBo{
+            width: 500%;
+            height: 470px;
+            background: url(https://bowwowinsurance.com.au/wp-content/uploads/2018/10/boxer-700x700.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftRo{
+            width:580%;
+            height: 450px;
+            background: url(https://www.animaland.ro/wp-content/uploads/2020/01/cele_mai_inteligente_rase_de_caini_526344319-9.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftP{
+            width: 400%;
+            height: 540px;
+            background: url(https://www.parmapress24.it/wp-content/uploads/2017/01/ce575793c02769048815473fa93f6b65.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftAm{
+            width: 540%;
+            height: 500px;
+            background: url(https://i.pinimg.com/originals/c5/a1/9e/c5a19e70f853bda6f825f29c161b2646.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBl{
+            width: 780%;
+            height: 430px;
+            background: url(https://storage.ning.com/topology/rest/1.0/file/get/3292306780?profile=RESIZE_930x&width=800)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftD{
+            width: 650%;
+            height: 400px;
+            background: url(https://www.elityavru.com/irk/resim/21_doberman-2.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftDo{
+            width: 630%;
+            height: 700px;
+            background: url(https://images-on-off.com/images/53/sobakanemetskiydogfotoporodiopisaniexara-77c49ce0.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftDA{
+            width: 600%;
+            height: 480px;
+            background: url(https://scms.machteamsoft.ro/uploads/photos/652x450/652x450_016715-dog-argentinian.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftDl{
+            width: 850%;
+            height: 460px;
+            background: url(https://rasedecaini.ro/wp-content/uploads/2019/05/rasa-Dalmatian.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftS{
+            width: 550%;
+            height: 500px;
+            background: url(https://www.keblog.it/wp-content/uploads/2020/09/foto-divertenti-shiba-inu-rovina-foto-gruppo-04-1.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftAc{
+            width: 720%;
+            height: 440px;
+            background: url(https://www.animalkingdomaz.com/wp-content/uploads/Akita-Custom.jpeg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftAa{
+            width: 720%;
+            height: 500px;
+            background: url(https://www.razzedicani.net/wp-content/uploads/2016/04/american1-e1461847948261.png)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+            
+      }
+      .leftSa{
+            width: 450%;
+            height: 420px;
+            background: url(https://i.pinimg.com/originals/89/06/6d/89066d6a564e7b8a68300945a0fc097a.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftT{
+            width: 790%;
+            height: 400px;
+            background: url(https://www.ilmiocaneleggenda.it/wp-content/uploads/2020/04/Terranova.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCh{
+            width: 600%;
+            height: 520px;
+            background: url(https://www.divahair.ro/images/speciale/articole/articole_imagini/alexag_135/2016.04.18/650x488/iStock_000023384913_Medium_477_488.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftSp{
+            width: 900%;
+            height: 400px;
+            background: url(https://serviciodeviajes.com/seo2/img/5d3a22e948f33.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCz{
+            width: 900%;
+            height: 470px;
+            background: url(https://vetstreet.brightspotcdn.com/dims4/default/b61a877/2147483647/crop/645x380%2B0%2B11/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fae%2Fc6%2F2f2acdb3420b9a321173d9d9b01e%2Fchinese-crested-ap-0w15gn.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftSh{
+            width: 900%;
+            height: 450px;
+            background: url(https://www.zooplus.fr/magazine/wp-content/uploads/2018/10/portrait-de-shih-tzu-1024x683.jpeg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftMa{
+            width: 700%;
+            height: 500px;
+            background: url(https://rasedecaini.ro/wp-content/uploads/2019/05/rasa-bichon-maltez-730x438.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBn{
+            width: 490%;
+            height: 600px;
+            background: url(https://www.mydog.pet/wp-content/uploads/2021/01/Bolognese.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftF{
+            width: 850%;
+            height: 500px;
+            background: url(https://www.dogtime.com/assets/uploads/2011/01/file_23136_bichon-frise-460x290.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftWe{
+            width: 530%;
+            height: 550px;
+            background: url(https://www.animalkingdomaz.com/wp-content/uploads/westie-adult-1.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftY{
+            width: 490%;
+            height: 500px;
+            background: url( https://img.corr.it/upload/1422083513111.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftSk{
+            width: 1000%;
+            height: 400px;
+            background: url(https://i.pinimg.com/originals/83/98/64/839864882608e5b105374ac268021ffa.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftMh{
+            width: 790%;
+            height: 500px;
+            background: url(https://todaslasrazasdeperros.org/wp-content/uploads/2020/08/Manchester-Terrier-e1597381891517.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftJ{
+            width: 670%;
+            height: 600px;
+            background: url(http://www.newdog.it/wp-content/uploads/2015/10/jack-russell-agile.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftPa{
+            width: 730%;
+            height: 600px;
+            background: url(https://dogbreeds.wiki/uploads/p/parson-russell-terrier-photo-1_1.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftFo{
+            width: 690%;
+            height: 600px;
+            background: url(https://amicidicasa.it/wp-content/uploads/2020/10/1259851419foxterrierV.GROSSEMY05.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBe{
+            width: 870%;
+            height: 550px;
+            background: url(http://web5.lifelearn.com/wp-content/uploads/2011/01/BedlingtonTerrier1of2.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftI{
+            width: 780%;
+            height: 500px;
+            background: url(https://ssl.cdn.www.miciobao.net/wp-content/uploads/Irish-terrier-3.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftWh{
+            width: 690%;
+            height: 500px;
+            background: url(https://www.dog.it/wp-content/uploads/2018/09/Welsh-Terrier.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftAr{
+            width: 760%;
+            height: 550px;
+            background: url(https://www.animalzoo.ro/wp-content/uploads/2016/10/airedale-terrier.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBk{
+            width: 910%;
+            height: 500px;
+            background: url(https://www.omlet.us/images/cache/929/768/Dog-Black_Russian_Terrier-Two_beautiful_adult_Black_Russian_Terriers_content_in_each_others_company.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftSc{
+            width: 710%;
+            height: 550px;
+            background: url(http://cdn.tipresentoilcane.com/wp-content/uploads/2011/10/06065829/tretaglie.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftO{
+            width: 730%;
+            height: 470px;
+            background: url(https://www.toateanimalele.ro/wp-content/uploads/2016/05/Saluki.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftKi{
+            width: 990%;
+            height: 450px;
+            background: url(https://www.cavaliere-vom-hardenberg.de/wp-content/uploads/2019/03/cavalier_colors.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCr{
+            width: 620%;
+            height: 500px;
+            background: url(https://t1.ea.ltmcdn.com/it/razas/0/5/5/img_550_welsh-corgi-pembroke_0_orig.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftE{
+            width: 750%;
+            height: 550px;
+            background: url(https://i.pinimg.com/736x/66/20/43/662043de11b6e8653c16cde34d9078ca.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftPe{
+            width: 680%;
+            height: 500px;
+            background: url(https://www.purina.co.uk/sites/default/files/2021-02/BREED%20Hero_0095_pomeranian.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCi{
+            width: 690%;
+            height: 550px;
+            background: url(https://www.cani.com/sites/default/files/imagecache/column_width/chihuahua.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftX{
+            width: 1030%;
+            height: 600px;
+            background: url(https://www.animalzoo.ro/wp-content/uploads/2016/03/xolo-600x515.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBh{
+            width: 1000%;
+            height: 520px;
+            background: url(https://www.dogbreedersgallery.co.za/images/listings/2019-08/undefined-1566592964-231-e.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBt{
+            width: 1000%;
+            height: 690px;
+            background: url(https://i.pinimg.com/564x/15/67/97/156797f27044fd530049deec86c8b28b.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCk{
+            width: 730%;
+            height: 550px;
+            background: url(https://478561.smushcdn.com/2139592/wp-content/uploads/2017/06/solid-cockers1.jpg?lossy=1&strip=1&webp=1)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBa{
+            width: 930%;
+            height: 550px;
+            background: url(https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/11123543/Beagles-standing-in-a-frosty-field-on-a-cold-morning.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftPt{
+            width: 640%;
+            height: 400px;
+            background: url(https://i.simpalsmedia.com/999.md/BoardImages/900x900/181bdd3a163fd6eb2ea7e6f89f239f27.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -25%;
+      }
+      .leftSt{
+            margin-top: 15%;
+            width: 740%;
+            height: 430px;
+            background: url(https://i.pinimg.com/originals/1e/72/95/1e7295086e69c6f0176c119a7d59446c.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBg{
+            width: 820%;
+            height: 450px;
+            background: url(http://www.rfi.ro/sites/default/files/styles/inside_content/public/bulldog.jpg?itok=VwxFifUV)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftPg{
+            width: 990%;
+            height: 590px;
+            background: url(https://www.petplan.co.uk/images/breed-info/pug/common-health-conditions-carousel-m7a7729-cutout.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBf{
+            width: 730%;
+            height: 500px;
+            background: url(https://monitoruldevrancea.ro/wp-content/uploads/2016/8/1%20august/31Bulldog881%20NU.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftBm{
+            width: 810%;
+            height: 550px;
+            background: url(https://petfamily.it/wp-content/uploads/2019/09/pagine_1558366480_foto1-1.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftCs{
+            width: 840%;
+            height: 650px;
+            background: url(https://www.razzedicani.net/wp-content/uploads/2018/02/razza-cane-corso.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftMn{
+            width: 680%;
+            height: 500px;
+            background: url(https://img.chien.com/img/races-de-chiens/183_big-matin-napolitain.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -28%;
+      }
+      .leftDg{
+            width: 780%;
+            height: 550px;
+            background: url(https://www.thekennelclub.org.uk/media/1777/dogue-de-bordeaux-standing.jpg?mode=pad&width=1000&rnd=132143876810000000)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftSb{
+            width: 600%;
+            height: 580px;
+            background: url(https://i.pinimg.com/originals/29/6b/cd/296bcd122973895c5ab975500ab5256f.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftMt{
+            width: 670%;
+            height: 400px;
+            background: url(https://i.pinimg.com/originals/14/9f/24/149f2492590e4140cab3541bfee293b5.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftTs{
+            width: 800%;
+            height: 420px;
+            background: url(https://www.ilmiocaneleggenda.it/wp-content/uploads/2020/04/Tibetan-Spaniel-e1586182413128.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftTt{
+            width: 590%;
+            height: 450px;
+            background: url(https://img.chien.com/img/races-de-chiens/209_big-tibetan-terrier-tibet.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftTk{
+            width: 690%;
+            height: 500px;
+            background: url(https://www.pedigree.com/images/default-source/breed-images/largeae28078ea3f66930bcd1ff00004ce6f7.jpg?sfvrsn=f4de6e49_0)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .leftR{
+            width: 770%;
+            height: 430px;
+            background: url(https://i.pinimg.com/originals/05/63/d5/0563d500d9deab8181646deb8a65d2f5.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -25%;
+      }
+      .leftMe{
+            width: 860%;
+            height: 530px;
+            background: url(http://www.ziuaconstanta.ro/images/stories/2020/02/04/ana/caini-comunitari-2.jpg)
+            no-repeat center / cover;
+            border-radius: 8px;
+            margin-left: -18%;
+      }
+      .right {
+            width: 700%;
+            min-height: 300px;
+            background-color: #0e261c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            border-radius: 8px;
+            color: white;
+            margin-left: -10px;
+      }
+
+      .right p {
+            margin: 20px 0;
+            font-weight: 500;
+            line-height: 25px;
+      }
+      .right a {
+            text-decoration: none;
+            text-transform: uppercase;
+            background-color: black;
+            color: white;
+            padding: 20px 30px;
+            display: inline-block;
+            letter-spacing: 2px;
+      }
 
 
-}
+      @media screen and (min-width: 350px) and (max-width: 400px){
+      .lucrare {
+            flex-direction: column;
+            width: 100%;
+            margin: 0 20px;
+      }
+      .leftL {
+            width: 120%;
+            height: 250px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftG {
+            width: 110%;
+            height: 320px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftPu{
+            width: 105%;
+            height: 360px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftLa{
+            width: 115%;
+            height: 350px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftPo{
+            width: 110%;
+            height: 260px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftHu{
+            width: 110%;
+            height: 370px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftMm{
+            width: 115%;
+            height: 260px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftLu{
+            width: 115%;
+            height: 260px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCg{
+            width: 125%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCb{
+            width: 120%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftMs{
+            width: 110%;
+            height: 280px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBi{
+            width: 115%;
+            height: 250px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCc{
+            width: 130%;
+            height: 210px;
+            margin-top: 10%;
+            margin-left: -8%;
+            margin-right: 15%;
+      }
+      .leftCm{
+            width: 130%;
+            height: 210px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCo{
+            width: 120%;
+            height: 210px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBu{
+            width: 125%;
+            height: 215px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCp{
+            width: 125%;
+            height: 220px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBb{
+            width: 120%;
+            height: 300px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftB{
+            width: 115%;
+            height: 410px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftK{
+            width: 115%;
+            height: 300px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCa{
+            width: 110%;
+            height: 280px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftA{
+            width: 110%;
+            height: 265px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCl{
+            width: 105%;
+            height: 290px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBC{
+            width: 100%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBr{
+            width: 110%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftV{
+            width: 110%;
+            height: 250px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftW{
+            width: 110%;
+            height: 260px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBo{
+            width: 100%;
+            height: 330px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftRo{
+            width: 110%;
+            height: 350px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftP{
+            width: 110%;
+            height: 310px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftAm{
+            width: 110%;
+            height: 290px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBl{
+            width: 110%;
+            height: 220px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftD{
+            width: 110%;
+            height: 210px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftDo{
+            width: 100%;
+            height: 370px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftDA{
+            width: 115%;
+            height: 300px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftDl{
+            width: 105%;
+            height: 290px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftS{
+            width: 105%;
+            height: 260px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftAc{
+            width: 100%;
+            height: 250px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftAa{
+            width: 105%;
+            height: 280px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftSa{
+            width: 105%;
+            height: 260px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftT{
+            width: 100%;
+            height: 255px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCh{
+            width: 105%;
+            height: 300px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftSp{
+            width: 105%;
+            height: 230px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCz{
+            width: 120%;
+            height: 250px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftSh{
+            width: 105%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftMa{
+            width: 105%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBn{
+            width: 115%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftF{
+            width: 115%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftWe{
+            width: 120%;
+            height: 220px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftY{
+            width: 115%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftSk{
+            width: 120%;
+            height: 220px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftMh{
+            width: 115%;
+            height: 230px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftJ{
+            width: 115%;
+            height: 210px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftPa{
+            width: 115%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftFo{
+            width: 105%;
+            height: 230px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 5%;
+      }
+      .leftBe{
+            width: 105%;
+            height: 230px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 5%;
+      }
+      .leftI{
+            width: 115%;
+            height: 250px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftWh{
+            width: 115%;
+            height: 250px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftAr{
+            width: 110%;
+            height: 280px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBk{
+            width: 110%;
+            height: 250px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftSc{
+            width: 105%;
+            height: 280px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftO{
+            width: 100%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftKi{
+            width: 130%;
+            height: 210px;
+            margin-top: 10%;
+            margin-left: -10%;
+            margin-right: 15%;
+      }
+      .leftCr{
+            width: 110%;
+            height: 280px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftE{
+            width: 116%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftPe{
+            width: 110%;
+            height: 270px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCi{
+            width: 105%;
+            height: 220px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 10%;
+      }
+      .leftX{
+            width: 125%;
+            height: 290px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBh{
+            width: 100%;
+            height: 290px;
+            margin-top: 10%;
+            margin-left: 10%;
+            margin-right: 15%;
+            
+      }
+      .leftBt{
+            width: 100%;
+            height: 350px;
+            margin-top: 10%;
+            margin-left: -10%;
+      }
+      .leftCk{
+            width: 115%;
+            height: 240px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBa{
+            width: 105%;
+            height: 230px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 5%;
+      }
+      .leftPt{
+            width: 125%;
+            height: 200px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftSt{
+            width: 125%;
+            height: 220px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBg{
+            width: 110%;
+            height: 230px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftPg{
+            width: 100%;
+            height: 260px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBf{
+            width: 105%;
+            height: 260px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftBm{
+            width: 100%;
+            height: 290px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftCs{
+            width: 100%;
+            height: 280px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftMn{
+            width: 110%;
+            height: 260px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftDg{
+            width: 105%;
+            height: 250px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftSb{
+            width: 110%;
+            height: 205px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftMt{
+            width: 115%;
+            height: 210px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftTs{
+            width: 115%;
+            height: 200px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftTt{
+            width: 110%;
+            height: 230px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftTk{
+            width: 105%;
+            height: 260px;
+            margin-top: 10%;
+            margin-left: -5%;
+            margin-right: 15%;
+      }
+      .leftR{
+            width: 115%;
+            height: 220px;
+            margin-top: 10%;
+            margin-left: -8%;
+            margin-right: 15%;
+      }
+      .leftMe{
+            width: 105%;
+            height: 220px;
+            margin-top: 10%;
+            margin-left: -20%;
+            margin-right: -15%;
+      }
+      .right {
+            width: 90%;
+            margin: 0;
+            margin-top: -30px;
+            margin-left: -15%;
+      }
+
+
+      }
   </style>
   <script type>
 		
@@ -1749,43 +1689,43 @@ section {
 
 	var txtCautare = document.getElementsByClassName("lucrare");
 
-    window.onload = function Search() {
-    var locale = getLocaleLanguage();
-    var locales = [
-        { name: "English", value: "en" },
-        { name: "Deutsch", value: "de" },
-        { name: "Français<", value: "fr" },
-        { name: "Italiano<", value: "it" },
-        { name: "Romana<", value: "ro" },
-        { name: "Español<", value: "esp" },
-        { name: "Português<", value:"pt"}
+      window.onload = function Search() {
+      var locale = getLocaleLanguage();
+      var locales = [
+                  { name: "English", value: "en" },
+                  { name: "Deutsch", value: "de" },
+                  { name: "Français<", value: "fr" },
+                  { name: "Italiano<", value: "it" },
+                  { name: "Romana<", value: "ro" },
+                  { name: "Español<", value: "esp" },
+                  { name: "Português<", value:"pt"}
 
-    ];
-    getLocation();//Aflu limba vorbita in functie de locatia unde ma aflu
-    }
-//Site-ul se va deschide automat in limba vorbita in    locul unde ma aflu
-    function getLocaleLanguage() {
-        var limba_preferata = navigator.language.substr(0, 2);
+      ];
+      getLocation();//Aflu limba vorbita in functie de locatia unde ma aflu
+      }
+      //Site-ul se va deschide automat in limba vorbita in    locul unde ma aflu
+      function getLocaleLanguage() {
+                  var limba_preferata = navigator.language.substr(0, 2);
 
-        if (limba_preferata == "en") 
-                    English();
-            else if(limba_preferata == "de")
-                    German();
-            else if(limba_preferata == "fr")
-                    French();
-            else if(limba_preferata == "it")
-                    Italian();
-            else if(limba_preferata == "ro")
-                    Romana();
-            else if(limba_preferata == "esp")
-                    Spaniola();
-            else if(limba_preferata == "pt")
-                    Portugheza();
-            
-            else
-                    English();
+                  if (limba_preferata == "en") 
+                              English();
+                        else if(limba_preferata == "de")
+                              German();
+                        else if(limba_preferata == "fr")
+                              French();
+                        else if(limba_preferata == "it")
+                              Italian();
+                        else if(limba_preferata == "ro")
+                              Romana();
+                        else if(limba_preferata == "esp")
+                              Spaniola();
+                        else if(limba_preferata == "pt")
+                              Portugheza();
+                        
+                        else
+                              English();
 
-    }
+      }
 
 	function English(){
 
@@ -3463,7 +3403,7 @@ section {
             document.getElementById("text-lucrareWe").innerHTML = "Il <strong>West Highland White Terrier</strong> fa parte del gruppo dei cani di <strong>taglia piccola</strong>. È tra i cani più apprezzati per via del suo muso carino, con naso a forma di bottone, orecchie piccole e rialzate, occhi come due perline, il tutto su un muso che ti fa stare bene ogni volta che lo vedi e che ti dà l'impressione che sorride sempre. È intelligente, curioso, sempre vigile; quindi, abbaia al minimo rumore sospetto; Inoltre, caccia ancora animali più piccoli di lui, mantenendo così il suo istinto di caccia ereditato dal passato, quando venivano allevati per cacciare lontre, conigli, topi e altri animali nocivi. Per sua natura è amichevole con tutti, giocherellone ed equilibrato con i bambini, devoto e affettuoso con tutti i membri della famiglia, che custodirà e allieterà quotidianamente. Allegro, giocherellone e molto attivo, gli si consigliano 3-4 ore di camminata, corsa, gioco, scavare (uno dei suoi sport preferiti) e socializzazione con altri cani, durante le quali sì deve prestare attenzione, perché i maschi tendono ad essere aggressivi con i cani dello stesso sesso del loro. La pelliccia è lunga e bianca. Il peso di un maschio è compreso tra 8 e 10 kg e la femmina pesa tra 6 e 8 kg. La durata media della vita è tra i 12 e i 16 anni. Da non confondere con lo <strong>Scottish Terrier</strong>, anch'esso di <strong>taglia piccola</strong>, di peso compreso tra 8 e 10 kg, ma il pelo è lungo di colore nero, crema o tigrato. La durata della vita è compresa tra 12 e 15 anni. Altro parente stretto è la razza <strong>Cairn Terrier</strong>, di <strong>taglia piccola</strong>, di peso compreso tra i 6 e gli 8 kg, il pelo è lungo, nero, crema, grigio, rossiccio o bruno. La durata della vita è tra 12 e 15. Tutte e 3 le razze hanno temperamento e bisogni simili. <span>Clicca sull'immagine per scoprire lo stato d'animo del cane, in base al tempo trascorso fuori oggi!</span>"; 
             document.getElementById("text-lucrareY").innerHTML = "Lo <strong>Yorkshire Terrier</strong> fa parte del gruppo dei cani di <strong>taglia molto piccola</strong>, originariamente utilizzati per cacciare topi e ratti. Un buon cane da guardia, per il fatto che è territoriale e vigile, motivo per cui abbaia ogni volta che sente un pericolo; inoltre, è vigile e sospettoso degli estranei. Nel rapporto con i bambini, se è trattato bene e rispettato, si capiranno bene, altrimenti abbaierà e li morderà, diventando così un cane aggressivo intorno ai bambini. Devoto, amorevole e giocoso con la famiglia umana a cui appartiene, dalla quale ha bisogno di attenzioni ed affetto. Se lasciato solo per molto tempo, abbaia eccessivamente e svilupperà un comportamento aggressivo e distruttivo. Portare a spasso questa razza in una borsa gli farà più male che bene, perché è un cane attivo che ha bisogno di consumare le sue energie trascorrendo 2-3 ore all'aperto ogni giorno, divise tra camminare, correre, giocare e socializzare. con altri cani. Pesa tra 3 e 3,5 kg. Il pelo è lungo, lucido, grigio blu scuro con sfumature marroni, va ricordato che a seconda della stagione ha bisogno di essere protetto perché è sensibile alle temperature estreme sia che si parli di freddo che di caldo. La durata della vita è tra i 13 ei 16 anni. Un parente stretto, molto simile, sia nel carattere che nell'aspetto, è l'<strong>Australian Silky Terrier</strong>, che è di <strong>taglia molto piccola</strong>, con un peso compreso tra 4 e 5 kg. La pelliccia è lunga, marrone in combinazione con grigio, argento o nero. La durata della vita è compresa tra 12 e 15 anni. <span>Clicca sull'immagine per scoprire lo stato d'animo del cane, in base al tempo trascorso fuori oggi!</span>"; 
             document.getElementById("text-lucrareSk").innerHTML = "Lo <strong>Skye Terrier</strong> è un cane di <strong>taglia media</strong>. Questa razza, che risale a diverse centinaia di anni fa, è nella lista degli animali in via di estinzione. Curioso, coraggioso e vigile, è un buon cane da guardia ma anche un buon cacciatore, poiché ha trasmesso questo istinto di generazione in generazione. Al giorno d'oggi, non ha molte opportunità di cacciare tassi, lontre o volpi, come una volta, invece rincorrerà animali più piccoli della sua stazza, che vede come potenziali prede. Si raccomanda di socializzare precocemente con altri animali, bambini o altre persone, oltre ai familiari, per non sviluppare con loro un comportamento aggressivo o timido in età adulta. Giocoso, devoto e amorevole con tutti i membri della nuova famiglia a cui appartiene, da cui ha bisogno di attenzioni, affetto e di non essere lasciato solo a lungo; in caso contrario, mostrerà la sua sofferenza abbaiando eccessivamente e con comportamenti aggressivi e distruttivi. Si consigliano 3-4 ore di movimento ogni giorno, divise tra camminare, giocare, correre e socializzare con altri cani, dove, soprattutto i maschi, necessitano di supervisione, perché tendono ad essere aggressivi con altri cani del loro stesso sesso. La pelliccia è a pelo lungo e dritto, può essere monocromatico - rossiccio, bianco, crema, grigio, antracite, azzurro, marrone, nero - oppure bicolore, negli abbinamenti di colore citati in precedenza. Il maschio pesa tra i 16 ei 18 kg e la femmina tra i 12 e i 14 kg. Un parente stretto, ma di <strong>taglia molto piccola</strong>, il peso é compreso tra 3 e 5 kg, è la specie <strong>Cesky Terrier</strong> (Terrier Boemo). La pelliccia è lunga e ondulata, può essere monocromatica, nei toni del grigio, crema, marrone, nero o bicolore, nei toni del bianco o crema, in abbinamento al grigio, nero o marrone. Entrambe le razze hanno una durata di vita dai 12 a i 15 anni, ma anche temperamento e bisogni simili. <span>Clicca sull'immagine per scoprire lo stato d'animo del cane, in base al tempo trascorso fuori oggi!</span>"; 
-            document.getElementById("text-lucrareMh").innerHTML = "Il <strong>Manchester Terrier</strong> è un cane di <strong>taglia piccola</strong>. Inizialmente veniva allevato per cacciare topi, volpi o tassi; Al giorno d'oggi, lo troviamo più come cane da terapia o solo per compagnia. È intelligente, ricettivo e sempre desideroso di accontentare tutti, ma ha anche momenti in cui è testardo, dominante e territoriale. Per correggere comportamenti inappropriati, si consiglia un addestramento precoce, svolto con molta pazienza, con tono fermo, senza violenza e diversificato. Trascorrere del tempo in compagnia di persone diverse dai familiari porterà a un comportamento socievole e giocoso alla maturità con loro. Non gli piace stare da solo a lungo; inoltre ha bisogno delle attenzioni e dell'affetto di tutti i membri della famiglia adottiva di cui fa parte, che ricompenserà ogni giorno con tanto amore, devozione e buon umore. Per evitare l'obesità, ma anche per consumare energia in eccesso, ha bisogno di giochi e attività per mantenere la mente occupata e fisicamente in forma, più esercizio quotidiano per 3-4 ore, divise tra camminare, correre, scavare, giocare e socializzare con altri cani, dove bisogna fare attenzione, perché tende ad essere aggressivo con altri cani del suo stesso sesso. Il maschio pesa tra gli 8 e i 10 kg, mentre la femmina tra i 6 e i 8 kg. La pelliccia è corta, lucida, nera, in combinazione con macchie marroni situate intorno al muso, sopra le sopracciglia, all'interno delle orecchie, nella parte inferiore delle gambe e nel petto. La durata della vita è compresa tra 12 e 16 anni. Attenzione a non essere confuso con il <strong>Jagd Terrier</strong>, che è un cane di <strong>taglia piccola<strong> con un peso compreso tra 7 e 10 kg, il pelo è corto e duro, marrone o nero con macchie di fuoco intorno al muso, sopra i occhi, petto e zampe. La durata della vita è compresa tra 12 e 15 anni. Entrambe le razze hanno carattere e bisogni simili. <span>Clicca sull'immagine per scoprire lo stato d'animo del cane, in base al tempo trascorso fuori oggi!</span>"; 
+            document.getElementById("text-lucrareMh").innerHTML = "Il <strong>Manchester Terrier</strong> è un cane di <strong>taglia piccola</strong>. Inizialmente veniva allevato per cacciare topi, volpi o tassi; Al giorno d'oggi, lo troviamo più come cane da terapia o solo per compagnia. È intelligente, ricettivo e sempre desideroso di accontentare tutti, ma ha anche momenti in cui è testardo, dominante e territoriale. Per correggere comportamenti inappropriati, si consiglia un addestramento precoce, svolto con molta pazienza, con tono fermo, senza violenza e diversificato. Trascorrere del tempo in compagnia di persone diverse dai familiari porterà a un comportamento socievole e giocoso alla maturità con loro. Non gli piace stare da solo a lungo; inoltre ha bisogno delle attenzioni e dell'affetto di tutti i membri della famiglia adottiva di cui fa parte, che ricompenserà ogni giorno con tanto amore, devozione e buon umore. Per evitare l'obesità, ma anche per consumare energia in eccesso, ha bisogno di giochi e attività per mantenere la mente occupata e fisicamente in forma, più esercizio quotidiano per 3-4 ore, divise tra camminare, correre, scavare, giocare e socializzare con altri cani, dove bisogna fare attenzione, perché tende ad essere aggressivo con altri cani del suo stesso sesso. Il maschio pesa tra gli 8 e i 10 kg, mentre la femmina tra i 6 e i 8 kg. La pelliccia è corta, lucida, nera, in combinazione con macchie marroni situate intorno al muso, sopra le sopracciglia, all'interno delle orecchie, nella parte inferiore delle gambe e nel petto. La durata della vita è compresa tra 12 e 16 anni. Attenzione a non essere confuso con il <strong>Jagd Terrier</strong>, che è un cane di <strong>taglia piccola</strong> con un peso compreso tra 7 e 10 kg, il pelo è corto e duro, marrone o nero con macchie di fuoco intorno al muso, sopra i occhi, petto e zampe. La durata della vita è compresa tra 12 e 15 anni. Entrambe le razze hanno carattere e bisogni simili. <span>Clicca sull'immagine per scoprire lo stato d'animo del cane, in base al tempo trascorso fuori oggi!</span>"; 
             document.getElementById("text-lucrareJ").innerHTML = "Il <strong>Jack Russell Terrier</strong> è un cane di <strong>taglia piccola</strong>. Originario dell'Inghilterra, dove veniva utilizzato principalmente per cacciare volpi, ma anche per cacciare topi e altri animali nocivi. È un cane intelligente, coraggioso, territoriale, dominante, a volte indipendente e testardo. Ama essere al centro dell'attenzione, giocoso e amichevole con tutti, ma bisogna fare attenzione quando è con i bambini, perché perde rapidamente la pazienza e può diventare aggressiva con i più piccoli. Vigile, amorevole e leale con tutti i membri della famiglia, che delizierà e sorprenderà ogni giorno, da cui invece ha bisogno di attenzioni, affetto e di non essere lasciato solo a lungo in casa, altrimenti abbaierà molto e svilupperà un comportamento aggressivo e distruttivo. Questa razza è famosa principalmente per il fatto che salta ovunque e in qualsiasi momento, all'interno della casa è possibile trovarla nell'armadio o in altri luoghi più alti, e se beneficia di una casa con giardino, la recinzione deve essere molto alta per impedirgli di fuggire. Sono anche famosi per la loro ossessione di giocare costantemente a frisbee o palline. Giocoso, allegro e pieno di energia, ha sempre bisogno di nuovi giochi e sfide, sviluppandosi al meglio quando è stimolato fisicamente e mentalmente. Si consiglia, giornalmente, 3-4 ore di movimento all'aria aperta, suddivise tra camminare, correre, giocare, scavare e socializzare con altri cani, dove bisogna tener conto del fatto che sono impavidi, con un forte istinto di preda e, a prescindere della loro taglia, possono essere aggressivi con altri cani del loro stesso sesso, ma soprattutto con i cuccioli indipendentemente dalla razza o dal sesso. Pesa tra i 6 e i 8 kg, la pelliccia può essere bianco e nero, bianco e marrone o bianco, nero e marrone, ma deve essere prevalentemente bianco. La durata della vita è tra i 13 e i 16 anni. <span>Clicca sull'immagine per scoprire lo stato d'animo del cane, in base al tempo trascorso fuori oggi!</span>"; 
             document.getElementById("text-lucrarePa").innerHTML = "Il <strong>Parson Russell Terrier</strong> è un cane di <strong>piccola taglia</strong>, il cugino con le gambe più lunghe di Jack Russell Terrier. È un cane intelligente, attivo, curioso ed estremamente coraggioso. Inizialmente, erano usati per cacciare volpi e altri animali da tana. L'istinto di caccia è stato tramandato di generazione in generazione, motivo per cui rincorrerá gli animali più piccoli di lui, perché li vede come una possibile preda. Inoltre, quando annusa una traccia nel terreno, scaverà finché non troverà l'animale di cui ha sentito la traccia. Poiché è un cane dominante, territoriale e testardo, a cui piace prendere le proprie decisioni, è indicato un addestramento precoce deciso, senza violenza e fatto con molta pazienza. Ama essere al centro dell'attenzione, è amichevole e giocherellone con tutti, però bisogna prestare attenzione quando ci sono vicino dei bambini, perché perde facilmente la pazienza e può diventare aggressivo se non è rispettato. Allegro, amorevole e leale, è molto legato alla nuova famiglia di cui fa parte, ma ha un carattere molto sensibile. Pertanto, soffrirà enormemente, se rimane troppo a lungo da solo o lontano dai membri della famiglia, manifestando la sua rabbia attraverso un abbaiare eccessivo o un comportamento aggressivo e distruttivo. Pieno di energia e mai stanco, gli piace correre, saltare, nuotare, scavare, se possibile, per farle tutte 24 ore su 24. Ha bisogno di giochi e attività diversificate, che mantengano la sua mente sempre occupata e il fisico in forma, è consigliato, giornaliero, 3-4 ore di movimento, divise tra passeggiata, corsa, gioco e socializzazione con altri cani, dove bisogna prestare attenzione, perché tendono ad essere aggressivi con altri cani del loro stesso sesso e perdono rapidamente la pazienza quando ci sono cuccioli in giro, indipendentemente dalla razza e dal sesso. Il pelo è tricolore: bianco con piccole macchie marroni e nere, oppure bicolore: bianco con macchie marroni o nere, ma il bianco deve essere predominante. Il maschio pesa tra 8 e 10 kg, la femmina tra 7 e 9 kg. La durata della vita è tra i 13 e i 15 anni. <span>Clicca sull'immagine per scoprire lo stato d'animo del cane, in base al tempo trascorso fuori oggi!</span>";
             document.getElementById("text-lucrareFo").innerHTML = "Il <strong>Fox Terrier</strong>, noto anche come 'Atilla dei topi', è un cane di <strong>taglia piccola</strong>. Fa parte del gruppo dei migliori cani da tana, lo scavo è uno dei suoi sport preferiti. Così, nel momento in cui fiuta una traccia, scaverà finché non riuscirà a catturare l'animale. Inoltre, ha bisogno di socializzare fin dalla tenera età con altri animali, per evitare la tendenza  a dargli la caccia quando sarà cresciuto, indipendentemente dalla loro taglia. Ha una forte personalità ed è molto coraggioso. In passato veniva usato per la caccia di animali grandi, come cervi, cinghiali e persino orsi. È intelligente, ma anche molto testardo, quindi, nonostante capisca cosa gli viene chiesto di fare, rifiuterà. La formazione deve essere precoce, ferma, non violenta e fatta con molta pazienza, amichevole con tutti, giocherellone ed equilibrato con i bambini, amorevole, leale e protettiva con tutta la famiglia adottiva di cui fa parte, dalla quale ha bisogno di attenzioni, affetto e non essere lasciato solo per molto tempo, altrimenti diventerà aggressivo, distruttivo e abbaierà eccessivamente. Sono cani attivi, che hanno bisogno di consumare la loro energia in eccesso, sia attraverso giochi e attività, che li richiedono fisicamente e mentalmente, sia attraverso movimento all'aperto, quotidiano, per 3-4 ore, divise tra camminare, giocare, correre e socializzare con altri cani, dove bisogna prestare attenzione, perché tendono ad essere aggressivi con cani del loro stesso sesso. Indipendentemente dal tipo di pelliccia che ha il - pelo ruvido o pelo liscio, il colore predominante sarà il bianco. Può essere bicolore: bianco e marrone, bianco e nero o tricolore: una combinazione di bianco, marrone e nero. Il maschio pesa tra 8 e 10 kg, la femmina tra 7 e 9 kg. La durata della vita è compresa tra 10 e 15 anni.<span>Clicca sull'immagine per scoprire lo stato d'animo del cane, in base al tempo trascorso fuori oggi! </span>"; 
@@ -5081,7 +5021,7 @@ section {
             document.getElementById("text-lucrareWe").innerHTML = "Le <strong>West Highland White Terrier</strong> fait partie du groupe des chiens de <strong>petite taille</strong>. Il fait partie des chiens les plus appréciés en raison de son visage mignon, avec un nez en forme de bouton, des oreilles petites et relevées, des yeux comme deux perles, le tout sur un visage qui vous fait du bien à chaque fois que vous le voyez et qui vous donne l'impression qu'il sourit toujours. Il est intelligent, curieux, toujours alerte et vigilant; ainsi, il aboiera au moindre bruit suspect; De plus, il chasse toujours des animaux plus petits que lui, conservant ainsi son instinct de chasse hérité du passé, lorsqu'ils étaient élevés pour chasser les loutres, lapins, souris et autres parasites. De par sa nature, il est amical avec tout le monde, joueur et équilibré avec les enfants, dévoué et affectueux avec tous les membres de la famille, qu'il gardera et encouragera quotidiennement. Gai, joueur et très actif, il lui est recommandé 3-4 heures de marche, course, jeu, creuser (un de ses sports préférés) et socialisation avec d'autres chiens, pendant lesquelles il doit faire attention, car les mâles ont tendance à être agressifs avec les chiens du même sexe que le leur. La fourrure est longue et blanche. Le poids d'un mâle est compris entre 8 et 10 kg, et la femelle pèse entre 6 et 8 kg. L'espérance de vie moyenne se situe entre 12 et 16 ans. A ne pas confondre avec le <strong>Scottish Terrier</strong>, qui est aussi de <strong>petite taille</strong>, pesant entre 8 et 10 kg, mais la fourrure est longue en noir, crème ou bringé. La durée de vie est comprise entre 12 et 15 ans. Un autre proche parent est la race <strong>Cairn Terrier</strong>, est un chien de <strong>taille petite</strong>, pesant entre 6 et 8 kg, la fourrure est longue, noire, crème, grise, rougeâtre ou brune. L'espérance de vie est comprise entre 12 et 15 ans. Les 3 races ont un tempérament et des besoins similaires. <span>Cliquez sur l'image pour découvrir l'humeur du chien, en fonction du temps passé dehors aujourd'hui!</span>"; 
             document.getElementById("text-lucrareY").innerHTML = "Le <strong>Yorkshire Terrier</strong> fait partie du groupe des chiens de <strong>taille très petit</strong>, à l'origine utilisé pour chasser les souris et les rats. Un bon chien de garde, car il est territorial et alerte, c'est pourquoi il aboiera chaque fois qu'il sentira un danger ; de plus, il est vigilant et méfiant envers les étrangers. Dans la relation avec les enfants, s'il est bien traité et respecté, ils se comprendront bien, sinon il les aboiera et les mordra, devenant ainsi un chien agressif avec les enfants. Dévot, aimant et joueur avec la famille humaine à laquelle il appartient, dont il a besoin d'attention et d'affection. S'il est laissé seul pendant longtemps, il aboiera excessivement et développera un comportement agressif et destructeur. Marcher cette race dans un sac lui fera plus de mal que de bien, car c'est un chien actif qui a besoin de consommer son énergie en passant 2 à 3 heures dehors chaque jour, réparties entre marcher, courir, jouer et socialiser. avec d'autres chiens. Il pèse entre 3 et 3,5 kg. La fourrure est longue, brillante, bleu-gris foncé avec des nuances de brun, il faut rappeler qu'elle a besoin d'être protégée selon les saisons car elle est sensible aux températures extrêmes que l'on parle de temps froid ou de temps chaud. La durée de vie est comprise entre 13 et 16 ans. Un proche parent, très similaire, tant par son caractère que par son apparence, est le <strong>Australian Silky Terrier</strong>, qui est de <strong>très petite taille</strong>, pesant entre 4 et 5 kg. La fourrure est longue, brune en combinaison avec du gris, de l'argent ou du noir. La durée de vie est comprise entre 12 et 15 ans. <span>Cliquez sur l'image pour découvrir l'humeur du chien, en fonction du temps passé dehors aujourd'hui!</span>"; 
             document.getElementById("text-lucrareSk").innerHTML = "Le <strong>Skye Terrier</strong> est un chien de <strong>taille moyenne</strong>. Cette race, qui date de plusieurs centaines d'années, figure sur la liste des animaux en voie de disparition. Curieux, courageux et vigilant, c'est un bon chien de garde mais aussi un bon chasseur, du fait qu'il a transmis cet instinct de génération en génération. De nos jours, il n'a pas beaucoup d'occasions de chasser des blaireaux, des loutres ou des renards, comme il le faisait autrefois, mais il chassera plutôt des animaux plus petits que lui, qu'il considère comme des proies potentielles. Il est recommandé de socialiser tôt avec d'autres animaux, enfants ou autres personnes, en dehors des membres de la famille, afin de ne pas développer avec eux un comportement agressif ou timide à l'âge adulte. Joueur, dévoué et affectueux avec tous les membres de la nouvelle famille à laquelle il appartient, dont il a besoin d'attention, d'affection et de ne pas rester seul longtemps; sinon, il montrera sa souffrance par des aboiements excessifs et des comportements agressifs et destructeurs. 3-4 heures de mouvement sont recommandées chaque jour, réparties entre marcher, jouer, courir et socialiser avec d'autres chiens, où, surtout les mâles, ont besoin de surveillance, car ils ont tendance à être agressifs avec les autres chiens du même sexe que les autres. La fourrure est un poil long et raide, elle peut être monochromatique - rougeâtre, blanc, crème, gris, gris anthracite, bleu, marron, noir - ou bicolore, dans les combinaisons de couleurs mentionnées précédemment. Le mâle pèse entre 16 et 18 kg, et la femelle entre 12 et 14 kg. Un proche parent, mais de <strong>très petite taille</strong>, pesant entre 3 et 5 kg, est l'espèce <strong>Cesky Terrier</strong>. La fourrure est longue et ondulée, elle peut être monochromatique, dans des tons de gris, crème, marron, noir ou bicolore, dans des tons de blanc ou crème, en combinaison avec du gris, du noir ou du marron. Les deux races ont une durée de vie de 12 à 15 ans, mais aussi un tempérament et des besoins similaires. <span>Cliquez sur l'image pour découvrir l'humeur du chien, en fonction du temps passé dehors aujourd'hui!</span>"; 
-            document.getElementById("text-lucrareMh").innerHTML = "Le <strong>Manchester Terrier</strong> est un chien de <strong>taille petit</strong>. Initialement, il était élevé pour chasser les souris, les renards ou les blaireaux; De nos jours, on le retrouve plus comme chien de thérapie ou simplement pour compagnie. Il est intelligent, réceptif et toujours désireux de plaire à tout le monde, mais il a aussi des moments où il est têtu, dominant et territorial. Pour corriger les comportements inappropriés, il est recommandé un entraînement précoce, fait avec beaucoup de patience, d'un ton ferme, sans violence et diversifié. Passer du temps en compagnie de personnes autres que les membres de la famille conduira à un comportement sociable et ludique à maturité avec eux. Il n'aime pas rester seul longtemps; de plus, il a besoin de l'attention et de l'affection de tous les membres de la famille adoptive à laquelle il appartient, qu'il récompensera chaque jour avec beaucoup d'amour, de dévouement et de bonne humeur. Pour éviter l'obésité, mais aussi pour consommer un excès d'énergie, il a besoin de jeux et d'activités pour garder son esprit occupé et en bonne forme physique, ainsi que d'exercices quotidiens pendant 3-4 heures, répartis entre marcher, courir, creuser, jouer et socialiser avec d'autres chiens, où il faut faire attention, car il a tendance à être agressif avec les autres chiens du même sexe que le sien. Le mâle pèse entre 8 et 10 kg, tandis que la femelle pèse entre 6 et 8 kg. La fourrure est courte, brillante, noire, associée à des taches brunes situées autour du museau, au-dessus des sourcils, à l'intérieur des oreilles, du bas des jambes et de la poitrine. La durée de vie est comprise entre 12 et 16 ans. Attention à ne pas confondre avec le <strong>Jagd Terrier</strong>, qui est un chien de <strong>taille petit<strong> d'un poids compris entre 7 et 10 kg, le pelage est court et rude, marron ou noir avec des taches de feu autour du museau, au dessus des yeux, la poitrine et les pieds. La durée de vie est comprise entre 12 et 15 ans. Les deux races ont un caractère et des besoins similaires. <span>Cliquez sur l'image pour découvrir l'humeur du chien, en fonction du temps passé dehors aujourd'hui!</span>"; 
+            document.getElementById("text-lucrareMh").innerHTML = "Le <strong>Manchester Terrier</strong> est un chien de <strong>taille petit</strong>. Initialement, il était élevé pour chasser les souris, les renards ou les blaireaux; De nos jours, on le retrouve plus comme chien de thérapie ou simplement pour compagnie. Il est intelligent, réceptif et toujours désireux de plaire à tout le monde, mais il a aussi des moments où il est têtu, dominant et territorial. Pour corriger les comportements inappropriés, il est recommandé un entraînement précoce, fait avec beaucoup de patience, d'un ton ferme, sans violence et diversifié. Passer du temps en compagnie de personnes autres que les membres de la famille conduira à un comportement sociable et ludique à maturité avec eux. Il n'aime pas rester seul longtemps; de plus, il a besoin de l'attention et de l'affection de tous les membres de la famille adoptive à laquelle il appartient, qu'il récompensera chaque jour avec beaucoup d'amour, de dévouement et de bonne humeur. Pour éviter l'obésité, mais aussi pour consommer un excès d'énergie, il a besoin de jeux et d'activités pour garder son esprit occupé et en bonne forme physique, ainsi que d'exercices quotidiens pendant 3-4 heures, répartis entre marcher, courir, creuser, jouer et socialiser avec d'autres chiens, où il faut faire attention, car il a tendance à être agressif avec les autres chiens du même sexe que le sien. Le mâle pèse entre 8 et 10 kg, tandis que la femelle pèse entre 6 et 8 kg. La fourrure est courte, brillante, noire, associée à des taches brunes situées autour du museau, au-dessus des sourcils, à l'intérieur des oreilles, du bas des jambes et de la poitrine. La durée de vie est comprise entre 12 et 16 ans. Attention à ne pas confondre avec le <strong>Jagd Terrier</strong>, qui est un chien de <strong>taille petit</strong> d'un poids compris entre 7 et 10 kg, le pelage est court et rude, marron ou noir avec des taches de feu autour du museau, au dessus des yeux, la poitrine et les pieds. La durée de vie est comprise entre 12 et 15 ans. Les deux races ont un caractère et des besoins similaires. <span>Cliquez sur l'image pour découvrir l'humeur du chien, en fonction du temps passé dehors aujourd'hui!</span>"; 
             document.getElementById("text-lucrareJ").innerHTML = "Le <strong>Jack Russell Terrier</strong> est un chien de <strong>taille petit</strong>. Originaire d'Angleterre, où il était utilisé principalement pour la chasse au renard, mais aussi pour chasser les souris et autres animaux nuisibles. C'est un chien intelligent, courageux, territorial, dominant, parfois indépendant et têtu. Elle adore être le centre d'attention, joueuse et amicale avec tout le monde, mais il faut faire attention lorsqu'elle est en présence d'enfants, car elle perd rapidement patience et peut devenir agressive avec les plus petits. Vigilant, aimant et loyal envers tous les membres de la famille, qu'il ravira et surprendra chaque jour, de qui, au contraire, il a besoin d'attention, d'affection et de ne pas rester seul à la maison pendant longtemps, sinon il aboiera beaucoup. et développera un comportement agressif et destructeur. Cette race est célèbre principalement pour le fait qu'elle saute n'importe où et n'importe quand, à l'intérieur de la maison il est possible de la trouver dans le placard ou dans d'autres endroits plus élevés, et si elle bénéficie d'une maison avec jardin, la clôture doit être très haute pour l'empêcher de s'échapper. Ils sont également célèbres pour leur obsession de jouer constamment au frisbee ou aux balles. Joueur, joyeux et plein d'énergie, il a toujours besoin de nouveaux jeux et défis, se développant mieux lorsqu'il est stimulé physiquement et mentalement. Il est recommandé, quotidiennement, 3-4 heures de mouvement en plein air, réparties entre marcher, courir, jouer, creuser et socialiser avec d'autres chiens, où vous devez tenir compte du fait qu'ils sont intrépides, avec un fort instinct de proie et, peu importe de leur taille, ils peuvent être agressifs avec les autres chiens du même sexe que le leur, mais surtout avec les chiots quel que soit leur race ou leur sexe. Il pèse entre 6 et 8 kg, la fourrure est blanche et noire, blanche et brune ou blanche, noire et brune, mais doit être majoritairement blanche. La durée de vie est comprise entre 13 et 16 ans. <span>Cliquez sur l'image pour découvrir l'humeur du chien, en fonction du temps passé dehors aujourd'hui!</span>"; 
             document.getElementById("text-lucrarePa").innerHTML = "Le <strong>Parson Russell Terrier</strong> est un chien de <strong>taille petit</strong>, le cousin aux pattes plus longues du Jack Russell Terrier. C'est un chien intelligent, actif, curieux et extrêmement courageux. Initialement, ils étaient utilisés pour chasser les renards et autres animaux de tanière. L'instinct de chasse s'est transmis de génération en génération, c'est pourquoi des animaux plus petits que lui courront, qu'il considère comme une proie possible. Aussi, lorsqu'il renifle une trace dans le sol, il creusera jusqu'à trouver l'animal dont il a senti la trace. Parce que c'est un chien dominant, territorial et têtu, qui aime prendre ses propres décisions, un dressage précoce ferme, sans violence et fait avec beaucoup de patience, est indiqué. Il adore être le centre d'attention, il est sympathique et joueur avec tout le monde, mais il doit être prudent avec les enfants, car il perd rapidement patience et peut devenir agressif avec les plus petits, s'il n'est pas respecté. Enjoué, aimant et loyal, il est très attaché à la nouvelle famille à laquelle il appartient, mais il est de nature très sensible. Ainsi, il souffrira énormément, s'il reste trop longtemps seul ou loin des membres de sa famille, manifestant sa colère par des aboiements excessifs ou des comportements agressifs et destructeurs. Plein d'énergie et jamais fatigué, il aime courir, sauter, nager, creuser, si possible, pour les faire tous 24 heures sur 24. Il a besoin de jeux et d'activités diversifiés, qui garderont toujours son esprit occupé et en bonne forme physique, c'est recommandé, quotidiennement, 3-4 heures de mouvement, réparties entre marcher, courir, jouer et socialiser avec d'autres chiens, où il faut faire attention, car ils ont tendance à être agressifs avec les autres chiens du même sexe que le leur et ils perdent rapidement patience quand il y a des chiots autour, indépendamment de leur race et de leur sexe. La fourrure est tricolore: blanche avec de petites taches brunes et noires, ou bicolore: blanche avec des taches brunes ou noires, mais le blanc doit être prédominant. Le mâle pèse entre 8 et 10 kg, la femelle entre 7 et 9 kg. La durée de vie est comprise entre 13 et 15 ans. <span>Cliquez sur l'image pour découvrir l'humeur du chien, en fonction du temps passé dehors aujourd'hui!</span>"; 
             document.getElementById("text-lucrareFo").innerHTML = "Le <strong>Fox Terrier</strong>, également connu sous le nom de 'Atilla des souris', est un chien de <strong>taille petit</strong>. Il fait partie du groupe des meilleurs chiens de tanière, le creusement étant l'un de ses sports favoris. Ainsi, dès qu'il flaire une piste, il creusera jusqu'à ce qu'il parvienne à attraper l'animal. De plus, il a besoin de socialiser dès son plus jeune âge avec les autres animaux, pour éviter la tendance à les chasser à maturité, quelle que soit leur taille. Il a une forte personnalité et est très courageux. Dans le passé, il était utilisé pour chasser des animaux plus gros, tels que le cerf, le sanglier et même l'ours. Il est intelligent, mais aussi têtu, donc, malgré le fait qu'il comprenne ce qu'on lui demande de faire, il refusera. L'entraînement doit être précoce, ferme, non violent et fait avec beaucoup de patience. Amical avec tout le monde, joueur et équilibré avec les enfants, aimant, loyal et protecteur avec toute la famille adoptive à laquelle il appartient, dont il a besoin d'attention, d'affection et ne pas rester seul pendant longtemps, sinon il deviendra agressif, destructeur et aboiera excessivement. Ce sont des chiens actifs, qui ont besoin de consommer leur excès d'énergie, à la fois par des jeux et des activités, qui les nécessitent physiquement et mentalement, ainsi que par des mouvements extérieurs, quotidiennement, pendant 3-4 heures, répartis entre marcher, jouer, courir et socialiser. avec d'autres chiens, où il faut faire attention, car ils ont tendance à être agressifs avec les chiens du même sexe que le leur. Quel que soit le type de fourrure que vous avez - poils rugueux ou poils lisses, la couleur prédominante sera le blanc. Il peut aussi être bicolore: blanc et marron, noir et blanc ou tricolore: combinaison de blanc, marron et noir. Le mâle pèse entre 8 et 10 kg, la femelle entre 7 et 9 kg. La durée de vie est comprise entre 10 et 15 ans. <span>Cliquez sur l'image pour découvrir l'humeur du chien, en fonction du temps passé dehors aujourd'hui!</span>"; 
